@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import FeatureComponent from './components/FeatureComponent'
 import BackendComponent from './components/BackendComponent'
+import CTComponent from './components/CTComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <BackendComponent />
+      <CTComponent />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
