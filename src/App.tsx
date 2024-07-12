@@ -3,13 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import FeatureComponent from './components/FeatureComponent'
+import BackendComponent from './components/BackendComponent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <FeatureComponent />
+      <BackendComponent />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
